@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 12px;
+}
+
+body{
+    margin: 0;
+}
+
+
+/*header*/
+
+header img{
+    padding-top: 30px ;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.buscador {
+    padding-left: 20px;
+}
+
+header nav ul{
+    padding-bottom: 20px;
+}
+
+header div p{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+header nav ul li i{
+    padding-left: 3px;
+}
+
+header{
+    background-color:var(--color-amarillo);
+}
+
+.burger-menu{
+    text-align: center;
+    padding-bottom: 10px;
+
+    
+    
+}
+
+.home .burger-menu button{
+    display: inline-block;
+    margin: 10px auto;
+    background-color: var(--color-celeste);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+/*main*/
+
+.main {
+    background-color: var(--color-grisClaro);
+
+}
+.main h2 {
+    font-size: 24px;
+    
+
+}
+.main section p {
+    font-size: 18px;
+    
+   
+}
+.main section span{
+    font-size: 16px;
+
+}
+
+.main section h4{
+    font-size: 16px;
+}
+/*footer*/
+
+footer{
+    background-color: white;
+    padding-top: 30px;
+}
+.foott{
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.foott i{
+    font-size: 2em;
+   margin-bottom: 5px;
+   color: var(--color-celeste);
+}
+.copy p{
+    padding: 20px 15px;
+    color: var(--color-grisOscuro);
+}
